@@ -1,0 +1,43 @@
+.button{
+	background : #FF851B;
+	color : black;
+	border-radius: 4px;
+  	border: 2px solid #FF851B;
+  	height : 45px;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+  border: 2px solid #4CAF50;
+  color: white;
+}
+
+#design{
+    
+	  margin: 5px;
+    float: left;
+    width: 40%;
+    background-color: #E6E6FA;  
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    padding : 20px 20px 20px 20px;
+
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height : 200px;
+  width : 250px;
+  border-radius: 50%;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}

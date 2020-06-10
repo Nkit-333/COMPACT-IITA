@@ -1,0 +1,52 @@
+{% extends  'fac_dashboard.html' %}
+{% load static %}
+{% block content %}
+
+    <div class="main_content">
+        <h1><div class="header">Attendance</div></h1>
+        <link rel="stylesheet" href="{% static 'css/attendance.css'%}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <div class="info">
+        {% block content1 %}
+
+            {% block content_header %}
+                <h2>List</h2><br>
+                <p>
+                <a class='button1' href="Attendance/upload" >Upload Attendance</a>
+                </p>
+            {% endblock content_header %}
+
+            <table class='table table-hover'>
+                <thead class='table-info'>
+                <tr>
+                    <th><h2>Title</h2></th>
+                    <th><h2>Date of Upload</h2></th>
+                    <th><h2>Download</h2></th>
+                    <th><h2>Delete</h2></th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for element in List %}
+                    <tr>
+                        <td><h4>{{ element.title }}</h4></td>
+                        <td><h4>{{ element.DOU }}</h4></td>
+                        <td>
+                            <a class = 'button1' href="{{ element.File.url }}" target="_blank">Download PDF</a>
+                        </td>
+                        <td>
+                            <form method="post" action="{% url 'delete_list' element.pk %}">
+                            {% csrf_token %}
+                            <button type="submit" class= "button button2">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+
+        {% endblock content1 %}
+        </div>
+    </div>
+
+{% endblock content %}

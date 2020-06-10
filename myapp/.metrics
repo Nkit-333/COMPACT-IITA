@@ -1,0 +1,463 @@
+{
+    "files": {
+        "__init__.py": {
+            "block_positions": [], 
+            "comments": 0, 
+            "language": "Python", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 0
+        }, 
+        "admin.py": {
+            "block_positions": [], 
+            "comments": 0, 
+            "language": "Python", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 13
+        }, 
+        "apps.py": {
+            "block_positions": [
+                {
+                    "end": 5, 
+                    "name": "MyappConfig", 
+                    "start": 4, 
+                    "type": "Class"
+                }
+            ], 
+            "comments": 0, 
+            "language": "Python", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 3
+        }, 
+        "forms.py": {
+            "block_positions": [
+                {
+                    "end": 11, 
+                    "name": "AttendanceForm", 
+                    "start": 7, 
+                    "type": "Class"
+                }, 
+                {
+                    "end": 16, 
+                    "name": "AssignmentForm", 
+                    "start": 12, 
+                    "type": "Class"
+                }, 
+                {
+                    "end": 20, 
+                    "name": "TimetableForm", 
+                    "start": 17, 
+                    "type": "Class"
+                }
+            ], 
+            "comments": 0, 
+            "language": "Python", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 16
+        }, 
+        "models.py": {
+            "block_positions": [
+                {
+                    "end": 9, 
+                    "name": "Teaches", 
+                    "start": 3, 
+                    "type": "Class"
+                }, 
+                {
+                    "end": 16, 
+                    "name": "Faculty", 
+                    "start": 10, 
+                    "type": "Class"
+                }, 
+                {
+                    "end": 25, 
+                    "name": "Announcement", 
+                    "start": 17, 
+                    "type": "Class"
+                }, 
+                {
+                    "end": 37, 
+                    "methods": [
+                        {
+                            "end": 37, 
+                            "name": "delete", 
+                            "start": 34, 
+                            "type": "Function"
+                        }
+                    ], 
+                    "name": "attendance", 
+                    "start": 26, 
+                    "type": "Class"
+                }, 
+                {
+                    "end": 50, 
+                    "methods": [
+                        {
+                            "end": 50, 
+                            "name": "delete", 
+                            "start": 47, 
+                            "type": "Function"
+                        }
+                    ], 
+                    "name": "Assignments", 
+                    "start": 38, 
+                    "type": "Class"
+                }, 
+                {
+                    "end": 60, 
+                    "methods": [
+                        {
+                            "end": 60, 
+                            "name": "delete", 
+                            "start": 58, 
+                            "type": "Function"
+                        }
+                    ], 
+                    "name": "Timetable", 
+                    "start": 51, 
+                    "type": "Class"
+                }
+            ], 
+            "comments": 0, 
+            "language": "Python", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 45
+        }, 
+        "templates/Announcement.html": {
+            "block_positions": [], 
+            "comments": 0, 
+            "language": "HTML+Django/Jinja", 
+            "mccabe": 1, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 36
+        }, 
+        "templates/Attendance.html": {
+            "block_positions": [], 
+            "comments": 0, 
+            "language": "HTML+Django/Jinja", 
+            "mccabe": 1, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 46
+        }, 
+        "templates/FAQ.html": {
+            "block_positions": [], 
+            "comments": 103, 
+            "language": "HTML", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 0.66, 
+            "sloc": 155
+        }, 
+        "templates/Student.html": {
+            "block_positions": [], 
+            "comments": 0, 
+            "language": "HTML+Django/Jinja", 
+            "mccabe": 1, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 45
+        }, 
+        "templates/fac_dashboard.html": {
+            "block_positions": [], 
+            "comments": 0, 
+            "language": "HTML+Django/Jinja", 
+            "mccabe": 1, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 43
+        }, 
+        "templates/faculty_profile.html": {
+            "block_positions": [], 
+            "comments": 0, 
+            "language": "HTML+Django/Jinja", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 35
+        }, 
+        "templates/index.html": {
+            "block_positions": [], 
+            "comments": 227, 
+            "language": "HTML+Django/Jinja", 
+            "mccabe": 2, 
+            "ratio_comment_to_code": 0.44, 
+            "sloc": 518
+        }, 
+        "templates/intermediate.html": {
+            "block_positions": [], 
+            "comments": 259, 
+            "language": "HTML", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 0.42, 
+            "sloc": 613
+        }, 
+        "templates/login.html": {
+            "block_positions": [], 
+            "comments": 0, 
+            "language": "HTML", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 23
+        }, 
+        "templates/register.html": {
+            "block_positions": [], 
+            "comments": 0, 
+            "language": "HTML+Django/Jinja", 
+            "mccabe": 1, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 24
+        }, 
+        "templates/student_profile.html": {
+            "block_positions": [], 
+            "comments": 0, 
+            "language": "HTML+Django/Jinja", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 35
+        }, 
+        "templates/test.html": {
+            "block_positions": [], 
+            "comments": 87, 
+            "language": "HTML", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 0.13, 
+            "sloc": 653
+        }, 
+        "templates/update_Assignment.html": {
+            "block_positions": [], 
+            "comments": 0, 
+            "language": "HTML+Django/Jinja", 
+            "mccabe": 1, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 47
+        }, 
+        "templates/update_timetable.html": {
+            "block_positions": [], 
+            "comments": 0, 
+            "language": "HTML+Django/Jinja", 
+            "mccabe": 1, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 43
+        }, 
+        "templates/upload_Assignment.html": {
+            "block_positions": [
+                {
+                    "end": 14, 
+                    "name": "crispy", 
+                    "start": 10, 
+                    "type": "Function"
+                }
+            ], 
+            "comments": 0, 
+            "language": "HTML+Django/Jinja", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 10
+        }, 
+        "templates/upload_Attendance.html": {
+            "block_positions": [
+                {
+                    "end": 14, 
+                    "name": "crispy", 
+                    "start": 10, 
+                    "type": "Function"
+                }
+            ], 
+            "comments": 0, 
+            "language": "HTML+Django/Jinja", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 10
+        }, 
+        "templates/upload_timetable.html": {
+            "block_positions": [
+                {
+                    "end": 14, 
+                    "name": "crispy", 
+                    "start": 10, 
+                    "type": "Function"
+                }
+            ], 
+            "comments": 0, 
+            "language": "HTML+Django/Jinja", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 10
+        }, 
+        "templates/view_Announcement.html": {
+            "block_positions": [], 
+            "comments": 0, 
+            "language": "HTML+Django/Jinja", 
+            "mccabe": 1, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 29
+        }, 
+        "templates/view_Assignment.html": {
+            "block_positions": [], 
+            "comments": 0, 
+            "language": "HTML+Django/Jinja", 
+            "mccabe": 1, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 33
+        }, 
+        "templates/view_Attendance.html": {
+            "block_positions": [], 
+            "comments": 0, 
+            "language": "HTML+Django/Jinja", 
+            "mccabe": 1, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 31
+        }, 
+        "templates/view_timetable.html": {
+            "block_positions": [], 
+            "comments": 0, 
+            "language": "HTML+Django/Jinja", 
+            "mccabe": 1, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 12
+        }, 
+        "tests.py": {
+            "block_positions": [], 
+            "comments": 1, 
+            "language": "Python", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 1.0, 
+            "sloc": 1
+        }, 
+        "views.py": {
+            "block_positions": [
+                {
+                    "end": 28, 
+                    "name": "index", 
+                    "start": 21, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 32, 
+                    "name": "StudentDash", 
+                    "start": 29, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 52, 
+                    "name": "student_profile", 
+                    "start": 33, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 56, 
+                    "name": "view_Assignment", 
+                    "start": 53, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 60, 
+                    "name": "view_timetable", 
+                    "start": 57, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 64, 
+                    "name": "view_Attendance", 
+                    "start": 61, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 71, 
+                    "name": "view_Announcement", 
+                    "start": 65, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 75, 
+                    "name": "facultyDash", 
+                    "start": 72, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 78, 
+                    "name": "faculty_profile", 
+                    "start": 76, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 82, 
+                    "name": "update_Assignment", 
+                    "start": 79, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 92, 
+                    "name": "upload_Assignment", 
+                    "start": 83, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 98, 
+                    "name": "delete_Assignment", 
+                    "start": 93, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 102, 
+                    "name": "update_timetable", 
+                    "start": 99, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 112, 
+                    "name": "upload_timetable", 
+                    "start": 103, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 118, 
+                    "name": "delete_timetable", 
+                    "start": 113, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 121, 
+                    "name": "update_exam_schedule", 
+                    "start": 119, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 125, 
+                    "name": "Attendance", 
+                    "start": 122, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 135, 
+                    "name": "upload_Attendance", 
+                    "start": 126, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 141, 
+                    "name": "delete_list", 
+                    "start": 136, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 153, 
+                    "name": "Announcement", 
+                    "start": 142, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 155, 
+                    "name": "FAQ", 
+                    "start": 154, 
+                    "type": "Function"
+                }
+            ], 
+            "comments": 2, 
+            "language": "Python", 
+            "mccabe": 18, 
+            "ratio_comment_to_code": 0.02, 
+            "sloc": 117
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "files": {
+        "__init__.py": {
+            "block_positions": [], 
+            "comments": 0, 
+            "language": "Python", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 0
+        }, 
+        "admin.py": {
+            "block_positions": [], 
+            "comments": 1, 
+            "language": "Python", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 1.0, 
+            "sloc": 1
+        }, 
+        "apps.py": {
+            "block_positions": [
+                {
+                    "end": 5, 
+                    "name": "AccountsConfig", 
+                    "start": 4, 
+                    "type": "Class"
+                }
+            ], 
+            "comments": 0, 
+            "language": "Python", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 3
+        }, 
+        "models.py": {
+            "block_positions": [], 
+            "comments": 1, 
+            "language": "Python", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 1.0, 
+            "sloc": 1
+        }, 
+        "tests.py": {
+            "block_positions": [], 
+            "comments": 1, 
+            "language": "Python", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 1.0, 
+            "sloc": 1
+        }, 
+        "urls.py": {
+            "block_positions": [], 
+            "comments": 0, 
+            "language": "Python", 
+            "mccabe": 0, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 6
+        }, 
+        "views.py": {
+            "block_positions": [
+                {
+                    "end": 27, 
+                    "name": "Slogin", 
+                    "start": 5, 
+                    "type": "Function"
+                }, 
+                {
+                    "end": 48, 
+                    "name": "Flogin", 
+                    "start": 28, 
+                    "type": "Function"
+                }
+            ], 
+            "comments": 0, 
+            "language": "Python", 
+            "mccabe": 10, 
+            "ratio_comment_to_code": 0.0, 
+            "sloc": 39
+        }
+    }
+}

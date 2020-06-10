@@ -1,0 +1,34 @@
+{% extends  'Student.html' %}
+
+{% block content %}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<div class="main_content">
+    <h1><div class="header">Announcements</div></h1>
+    <div class="info">
+
+        <table class='table table-hover'>
+            <thead class='table-info'>
+            <tr>
+                <th><h2>Date</h2></th>
+                <th><h2>Time</h2></th>
+                <th><h2>Sent By</h2></th>
+                <th><h2>Announcement</h2></th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for element in List %}
+                <tr>
+                    <td><h4>{{ element.Date }}</h4></td>
+                    <td><h4>{{ element.Time }}</h4></td>
+                    <td><h4>{{ element.Name }}</h4></td>
+                    <td><h4>{{ element.Anno }}</h4></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        
+    </div>
+</div>
+
+{% endblock %}

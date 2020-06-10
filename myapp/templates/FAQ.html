@@ -1,0 +1,183 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="{% static 'css/FAQ.css'%}">
+  <title>FAQ Template | CodyHouse</title>
+</head>
+
+<body>
+<header class="cd-header flex flex-column flex-center">
+  <div class="text-component text-center">
+    <h1>OUR FAQ PAGE</h1>
+  </div>
+</header>
+
+<section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg">
+	<ul class="cd-faq__categories">
+		<li><a class="cd-faq__category cd-faq__category-selected truncate" href="#basics">Basics</a></li>
+		<li><a class="cd-faq__category cd-faq__category-selected truncate" href="#account">Account</a></li>
+		<li><a class="cd-faq__category cd-faq__category-selected truncate" href="#mobile">Document</a></li>
+        <li><a class="cd-faq__category truncate" href="#privacy">Privacy</a></li>
+        <li><a class="cd-faq__trigger truncate" href="/">Home</a></li>
+	</ul> <!-- cd-faq__categories -->
+
+	<div class="cd-faq__items">
+		<ul id="basics" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Basics</h2></li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How can I sign up?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>If you are a student or a faculty of IIITA then you will be default signed up, linked to the college Mail ID provided to you. If not, then you cannot sign up.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Does it work on the mobile too?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Not for now, as it is not a published website.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Can Quizzes be conducted through this portal?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>This is a demo version and thus this facility has not been provided.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Is this software available only on IIITA LAN, just like AVIRAL used to be?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>This cannot be answered as this is a demo website, but if published it could be accessed from anywhere.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="account" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Account</h2></li>
+<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How do I change my password?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>You cannot change this password as your account credentials are your Ldap credentials, that being said the only way to change password would be from the server room.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How do I delete my account?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Only the admin can delete this account, which would be if the person leaves the college.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How do I change my account settings?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>For this demo website, the account settings can only be changed by the admin, this is be.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul>
+
+		<ul id="mobile" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Document</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Can any type of documents be uploaded?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Most of the documents that are uploaded by faculty of college are images and PDF's or programming files which can be uploaded without any hassle. However, links can also be uploaded.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Can I remove a posted document?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>This option is only available if you are a course instructor. If so, then you need to navigate to the subject where the posted document needs to be deleted and you can remove this document by clicking on delete option available on the side of the uploaded material.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How do I upload files from my dektop?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>The course instructor just needs to navigate through the website to the course whose materials he needs to upload and click on the upload button, then a dialog box will appear through which he can chose any document in his/her system and upload.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How can I add a link?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>For this demo version, you can just add links to a document and upload it under the respective subject. The students can download this pdf and then they would be able to access these links.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How can I update attendance of students in real time?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>There is a attendance tab in every user's profile. Any course instructor can navigate to this tab, where a google doc link would be available. Any user can redirect to this link created by admin where the attendance of students can be viewed/updated in real time. However, the option for editing student's attendance will only be available to course instructor.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="privacy" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Privacy</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>My files are missing! How do I get them back?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>If the files have been missing from student's account, then he can contact the server room, which will then resolve the issue.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How can I access my account data?</span></a>
+				<div class="cd-faq__content">
+                    <div class="text-component">
+                        <p>Any user can navigate to the profile tab which is present in every user's dashboard.</p>
+                    </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+        </ul> <!-- cd-faq__group -->
+
+		
+	</div> <!-- cd-faq__items -->
+
+	<a href="#0" class="cd-faq__close-panel text-replace">Close</a>
+  
+  <div class="cd-faq__overlay" aria-hidden="true"></div>
+</section> <!-- cd-faq -->
+
+<script src="{% static 'js/util.js' %}"></script><!-- util functions included in the CodyHouse framework -->
+<script src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>

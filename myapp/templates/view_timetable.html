@@ -1,0 +1,19 @@
+{% extends  'Student.html' %}
+
+{% block content %}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<div class="main_content">
+  <h1> <div class="header">Time Table</div> </h1>
+
+   <div class="info">
+    {% for element in List %}
+      <center><img src='{{ element.TFile.url }}'></center>
+    {% endfor %}
+
+     
+   </div>
+</div>
+
+{% endblock %}
+

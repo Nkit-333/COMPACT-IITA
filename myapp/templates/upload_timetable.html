@@ -1,0 +1,14 @@
+{% extends  'update_timetable.html' %}
+{% load crispy_forms_tags %}
+
+{% block content1 %}
+
+<h2>Upload Time Table</h2><br>
+
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <button type="submit" class="btn btn-primary">Upload Timetable</button>
+</form>
+
+{% endblock %}

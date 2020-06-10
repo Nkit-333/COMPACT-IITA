@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="{% static 'css/styles.css'%}">
+  <link rel="stylesheet" href="{% static 'css/test.css'%}">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="sidebar">
+        <h2>Student</h2>
+        <ul>
+            <li><a href="/StudentDash"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="/StudentDash/student_profile"><i class="fas fa-user"></i>Profile</a></li>
+            <li><a href="/StudentDash/view_Assignment"><i class="fas fa-clipboard-list"></i>Assignment</a></li>
+            <li><a href="/StudentDash/view_timetable"><i class="fas fa-table"></i>TimeTable</a></li>
+            <li><a href="/StudentDash/view_Attendance"><i class="fas fa-users"></i>Attendance</a></li>
+            <li><a href="/StudentDash/view_Announcement"><i class="fas fa-bullhorn"></i>Announcements</a></li>
+        </ul>   
+        <div class="social_media">
+          <a href="/"><i class="fas fa-sign-out-alt"></i></a>
+        </div>
+    </div>
+    {% block content %}
+    <div class="main_content">
+       <h1> <div class="header">Student Dashboard.</div> </h1>
+        
+        <div class="info">
+
+          <h2>Welcome {{ user.get_full_name }}</h2><br>
+          <h2>Enrolled Courses</h2>
+          {% for course in Courses %}
+          <div class = "squares">
+          <a href="/StudentDash/view_Assignment" id = "testing">
+            <img src = "/static/img/courses/elearn.png" >
+          </a>
+          <div class="desc">  {{course.CourseID}} ({{course.ProfID}})  </div>
+          </div>
+          {% endfor %}
+        </div>
+
+    </div>
+    {% endblock %}
+</div>
+
+</body>
+</html>
